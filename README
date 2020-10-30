@@ -1,0 +1,33 @@
+Pattern Recognition
+Spring 2018 - Project
+M. Apostolidou and N. Kyparissas
+
+Text Categorization using Gaussian Mixture Models
+
+-----------------------------------------------------------------------------
+Contents:
+-----------------------------------------------------------------------------
+data 				: contains training and testing data set
+results 			: contains csv files with accuracy results
+figs				: contains figures from performance analysis
+docs				: contains the project report and presentation slides
+code.py				: main code file, to perform training and testing
+dictionary_sort.py	: methods for the initial feature reduction 
+tfidf.py			: methods to create tf-idf matrices
+datAnalysis.py		: code to analyze csv results in pandas
+run_stats.sh		: bash script to run code.py and collect accuracy results
+
+-----------------------------------------------------------------------------
+Execution:
+-----------------------------------------------------------------------------
+
+To collect results for parameters 
+
+initial feature reduction: 0 500 1000 1500 2000 2500 3000
+svd components: 15 20 25 30 35 40 45 50
+gmm components: 1-25
+
+run run_stats.sh
+
+To train and test the code 
+run code.py num_initial_feature_reduction num_svd_components num_gmm_components
