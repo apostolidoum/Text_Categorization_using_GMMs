@@ -17,9 +17,6 @@ tfidf.py			: methods to create tf-idf matrices
 datAnalysis.py		: code to analyze csv results in pandas
 run_stats.sh		: bash script to run code.py and collect accuracy results
 
------------------------------------------------------------------------------
-Execution:
------------------------------------------------------------------------------
 
 To collect results for parameters 
 
